@@ -39,7 +39,7 @@ export default function MovieCast() {
           credits.cast.map((credit) => (
             <li key={credit.id}>
               <div className={styles.imgcontainer}>
-                <img 
+                <img
                   className={styles.poster}
                   src={
                     credit.profile_path

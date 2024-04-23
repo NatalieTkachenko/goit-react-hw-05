@@ -1,0 +1,15 @@
+.menuItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-right: 30px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #666666;
+
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}

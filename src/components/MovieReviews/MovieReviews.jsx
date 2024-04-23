@@ -28,13 +28,16 @@ export default function Moviereviews() {
 
   return (
     <div className={styles.reviewscontainer}>
-      {reviews && reviews.results.length > 0 ? (reviews.results.map((review) => (
-        <li key={review.id}>
-          <p className={styles.author}>Author:{review.author}</p>
-          <p className={styles.content}>{review.content}</p>
-        </li>))) : <p>No reviews</p>
-        
-        }
+      {reviews && reviews.results.length > 0 ? (
+        reviews.results.map((review) => (
+          <li key={review.id}>
+            <p className={styles.author}>Author:{review.author}</p>
+            <p className={styles.content}>{review.content}</p>
+          </li>
+        ))
+      ) : (
+        <p>No reviews</p>
+      )}
     </div>
   );
 }
