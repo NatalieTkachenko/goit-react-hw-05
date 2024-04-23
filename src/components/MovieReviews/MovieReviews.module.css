@@ -1,0 +1,24 @@
+.reviewscontainer {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+.author {
+display: inline-block;
+margin: 0;
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: 600;
+}
+
+.content {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #666666;
+}
